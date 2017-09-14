@@ -269,8 +269,8 @@ convenience we bundle these in a repository called toolchain. The
 toolchain contains 'newlib' and 'lwip' that 'mini-os' requires in
 order to build:
 
-	git clone https://github.com/cnplab/mini-os.git mini-os
-	git clone https://github.com/cnplab/toolchain.git toolchain
+	git clone https://github.com/sysml/mini-os.git mini-os
+	git clone https://github.com/sysml/toolchain.git toolchain
 	cd toolchain
 	make
 
@@ -296,7 +296,7 @@ And you should have an image available at './minios/build/clickos_x86_64'.
 To control a ClickOS instance, i.e. instal, start, stop and remove routers and
 access their element handlers, you need to build the ClickOS Control tool:
 
-	git clone https://github.com/cnplab/clickos-ctl.git clickos-ctl
+	git clone https://github.com/sysml/clickos-ctl.git clickos-ctl
 	cd clickos-ctl
 	make
 
@@ -329,7 +329,7 @@ ClickOS is really fast at booting up, although it mostly depends on the tools
 underneath. If you are looking towards faster ways of booting up these virtual
 machines, have a look at the following Xen toolstack:
 
-	http://github.com/cnplab/cosmos
+	https://github.com/sysml/chaos
 
 
 CLICKY GUI
